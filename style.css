@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-body{
+    background: #a3a3a3;
+    min-height: 100%;
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 0;
+    font-family: 'Inter'; 
+    color: white;
+}
+
+#logo {
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.textareas{
+    top: 100px;
+    width: 80vw;
+    max-width: 95%;
+    right: 20px;
+    left:20px;
+    height: 75%;
+    margin: 15px auto;
+    font-family: 'Inter'; 
+    font-style: normal;
+    padding: 20px;
+    display: inline-block;
+    grid-template-columns: auto;
+    resize: none;
+    border: none;
+    overflow: hidden;
+    line-height: 150%;
+    align-items: flex-end;
+    flex-grow: 0;
+    align-items: center;
+}
+
+#textbox {
+    color: #0A3871; 
+    background: #a3a3a3;
+    resize: none;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Inter'; 
+    font-style: normal;
+}
+
+textarea[id^="textbox"]::placeholder{
+    color: #0A3871;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: inline-block;
+}
+
+
+
+#output{
+    color: #495057;
+    background: #a3a3a3;
+    resize: none;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Inter'; 
+    font-style: normal;
+}
+
+
+textarea[id^="output"]::placeholder{
+    color: #495057;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.buttons{
+    align-items: flex-end;
+    top: 150px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#button1{
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline;
+}
+
+#button1:hover{
+    background-color:darkgray;
+    transition: 0.7s;
+}
+
+#button2{
+    padding: 24px;
+    gap: 8px;
+    background: #66696d;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    width: 328px;
+    height: 67px;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Tahoma';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    display: inline;
+}
+
+#button2:hover{
+    background-color:darkgray;
+    transition: 0.7s;
+}
+
+#copy{
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline;
+}
+
+#copy:hover{
+    background-color:darkgray;
+    transition: 0.7s;
+}
+
+.icon{
+    width: 8%;
+    height: 120%;
+    margin: 0 10px;
+}
+
+footer{
+    background: url(resources/footer-background-01.jpg);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer img{
+    width: 25%;
+}

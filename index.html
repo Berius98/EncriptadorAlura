@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador</title>  
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="main-body">
+        <header>
+                <div>  
+                    <p><img id="logo" src="resources/Logo.png">Encriptador Alura</p>
+                </div>
+        </header>
+        <main>
+            <div class="textareas">
+            <textarea type="text" id="textbox" name="textbox" placeholder="Ingrese el texto aquí" rows="10" cols="24" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32 || event.charCode == 241)"></textarea> 
+            <textarea type="text" id="output" name="output" placeholder="Ningún mensaje fue encontrado. Ingrese el texto que desees encriptar o desencriptar"rows="10" cols="24"></textarea> 
+             </div>
+
+            <div class="buttons">
+                <button type="button" id="button1"><img class="icon" src="resources/lock-solid.svg">Encriptar</button>
+                <button type="button" id="button2"><img class="icon" src="resources/lock-open-solid.svg"> Desencriptar</button>
+                <button type="button" id="copy" onclick="copyText()"><img class="icon" src="resources/clipboard-solid.svg">Copiar</button>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img id="icon-footer" src="resources/Makima.png">
+                <p>&copy Copyright Pablo Aldana, INC - 2023</p>
+                
+            </div>
+        </footer>
+
+        <script type="text/javascript" src=script.js></script>
+    </body>
+
+</html>
